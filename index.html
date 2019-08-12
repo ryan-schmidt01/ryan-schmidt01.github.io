@@ -14,30 +14,91 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-    <a class="navbar-brand" href="#">Ryan Schmidt</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <a class="navbar-brand" href="#">Ryan Schmidt</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="basicExampleNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experience</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <div class="collapse navbar-collapse justify-content-end" id="basicExampleNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
-        </li>
+  <nav>
+    <section id="home">
+      <div class="mask pattern-5 flex-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 white-text">
+              <h1 class="display-1">Ryan Schmidt</h1>
+              <h2>Computer Science and Psychology</h2>
+              <h2>Williams College</h2>
+            </div>
+            <div class="col-4">
+              <img src="./img/ryan.jpg" class="img-fluid z-depth-4" alt="Responsive image">
 
-      </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+<section id="aboutmenu">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-example">
+          <h1 class="display-1 white-text">About Me</h1>
+        </div>
+        <div class="col-6 col-example"> <img src="./img/williams.png" class="img-fluid2 z-depth-4" alt="Responsive image">
+        </div>
+        <div class="w-100"></div>
+        <div class="col-6 col-example white-text"><h4 class="display-4">I am an innovator, problem solver, and learner.</h4></div>
+        <div class="col-6 col-example"> <img src="./img/accenture.png" class="img-fluid2 z-depth-4" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+    
+    </section>
+
+<section id="experience">
+  <!-- Card -->
+<div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+
+  <!-- Content -->
+  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+    <div>
+      <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Marketing</h5>
+      <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+        optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+        Odit sed qui, dolorum!.</p>
+      <a class="btn btn-pink"><i class="fas fa-clone left"></i> View project</a>
     </div>
   </div>
+
+</div>
+<!-- Card -->
+</section>
+
+
   </nav>
+
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
